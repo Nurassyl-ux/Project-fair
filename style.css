@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.head {
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: fixed;
+    width: 860px;
+    z-index: 1000;
+}
+.supercell {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.supercell img {
+    width: 50px;
+
+}
+.pages {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+}
+.p {
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.o {
+    background-color: grey;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.i {
+    background-color: grey;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.u {
+    background-color: grey;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.mol {
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title img {
+    width: 1000px;
+    height: 400px;
+}
+.games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 50px;
+}
+.type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.type img {
+    width: 400px;
+
+}
+.under {
+    background: linear-gradient(to bottom, #084386, #1769c1, #67aeee);
+    padding-top: 20px;
+    padding-bottom: 0%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    height: 100px;
+}
+.under img {
+    height: 140px;
+    padding: 0%;
+}
+.butt {
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.butt button {
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    padding-bottom: 150px;
+}
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.logs {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.inlog {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.downloads {
+    display: flex;
+    gap: 10px;
+}
+.downloads img {
+    width: 100px;
+    height: 30px;
+}
+.inlog img {
+    width: 15px;
+    height: 15px;
+}
+.logs p {
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.infor {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 9px;
+    color: #fff;
+}
+.foot {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h {
+    color: gray;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+}
+.foot img {
+    width: 50px;
+}
+.pages a {
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+}
+.p:hover {
+    background-color: #fff;
+}
+.o:hover {
+    background-color: #fff;
+}
+.i:hover {
+    background-color: #fff;
+}
+.u:hover {
+    background-color: #fff;
+}
+.pages a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.type h3{
+    font-size: 8px;
+    color: rgb(238, 43, 76);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.type h2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.type img:hover {
+    width: 405px;
+}
+.mol h1::before {
+    content: attr(data-text);
+    width: 0;
+    height: 100%;
+    color: purple;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 66px;
+    animation: animate 3s linear infinite;
+
+}
+.pol {
+    display: none;
+}
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 100%;
+    }
+}
+.title h1 {
+    color: #084386;
+}
+@media screen and (max-width:450px){
+    * {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .logo {
+        display: none;
+    }
+    .butt h1 {
+        margin-left: 20px;
+    }
+    .games {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title img {
+        width: 450px;
+    }
+    .head {
+        margin: 0;
+    }
+    .pol {
+        display: block;
+        width: 30px;
+    }
+}

@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(209, 204, 204, 0.266);
+}
+.head {
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: fixed;
+    width: 860px;
+    z-index: 1000;
+}
+.supercell {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.supercell img {
+    width: 50px;
+}
+.pages {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+}
+.p {
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.o {
+    background-color: grey;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.i {
+    background-color: grey;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.u {
+    background-color: grey;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.pages a {
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+}
+.p:hover {
+    background-color: #fff;
+}
+.o:hover {
+    background-color: #fff;
+}
+.i:hover {
+    background-color: #fff;
+}
+.u:hover {
+    background-color: #fff;
+}
+.pages a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+     margin-bottom: 40px;
+}
+.tit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    color: #fff;
+} 
+.title video {
+    width: 1000px;
+}
+.tit h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.tit p{
+    margin-bottom: 30px;
+}
+.tit button{
+    font-size: 10px;
+    padding: 7px 7px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1769c1;
+}
+.under {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 5px 50px;
+}
+.inf {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img img {
+    width: 350px;
+}
+.inf h1{
+    font-size: 25px;
+}
+.inf p{
+    font-size: 10px;
+}
+.inf a {
+    font-size: 10px;
+    font-weight: 600;
+    color: #1769c1;
+}
+.table {
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.intab {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+}
+.bir {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bir h2 {
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.bir p {
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+.bir button{
+    background-color: #1769c1;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.nan {
+    margin-top: 20px;
+}
+.table h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.rib {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rib button {
+    text-transform: uppercase;
+    background-color: #1769c1;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+}
+.bir:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.imf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.photo img {
+    width: 400px;
+}
+.photo p {
+    font-size: 9px;
+}
+.photo {
+    background-color: #fff;
+}
+.innf {
+    margin: 20px;
+}
+.innf h4 {
+    font-weight: 600;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.innf a {
+    font-size: 10px;
+    font-weight: 600;
+    color: #1769c1;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    padding-bottom: 150px;
+}
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.logs {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.inlog {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.downloads {
+    display: flex;
+    gap: 10px;
+}
+.downloads img {
+    width: 100px;
+    height: 30px;
+}
+.inlog img {
+    width: 15px;
+    height: 15px;
+}
+.logs p {
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.infor {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 9px;
+    color: #fff;
+}
+.foot {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h {
+    color: gray;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+}
+.foot img {
+    width: 50px;
+}
+.pol {
+    display: none;
+}
+@media screen and (max-width:450px){
+    * {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .logo {
+        display: none;
+    }
+    .butt h1 {
+        margin-left: 20px;
+    }
+    .title video {
+        width: 450px;
+        position: relative;
+    }
+    .tit {
+        position: absolute;
+        top: 50px;
+    }
+    .head {
+        margin: 0%;
+    }
+    .under {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
